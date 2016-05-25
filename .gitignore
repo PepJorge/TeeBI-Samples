@@ -1,3 +1,5 @@
 *.local
 *.stat
 *.identcache
+*.dcu
+*.~1~

@@ -2,15 +2,15 @@ object Form1: TForm1
   Left = 0
   Top = 0
   Caption = 'TeeBI - Loading Data to BIChart and BIGrid from BIWeb'
-  ClientHeight = 384
-  ClientWidth = 749
+  ClientHeight = 469
+  ClientWidth = 849
   FormFactor.Width = 320
   FormFactor.Height = 480
   FormFactor.Devices = [Desktop]
   DesignerMasterStyle = 0
   object Panel1: TPanel
     Align = Top
-    Size.Width = 749.000000000000000000
+    Size.Width = 849.000000000000000000
     Size.Height = 97.000000000000000000
     Size.PlatformDefault = False
     TabOrder = 0
@@ -32,7 +32,7 @@ object Form1: TForm1
         'summary=sum(Quantity);Shippers.ShipperID'
       Position.X = 112.000000000000000000
       Position.Y = 8.000000000000000000
-      Size.Width = 625.000000000000000000
+      Size.Width = 721.000000000000000000
       Size.Height = 22.000000000000000000
       Size.PlatformDefault = False
     end
@@ -44,7 +44,7 @@ object Form1: TForm1
         'format=.htm&summary=sum(Quantity);Categories.CategoryName'
       Position.X = 112.000000000000000000
       Position.Y = 40.000000000000000000
-      Size.Width = 625.000000000000000000
+      Size.Width = 721.000000000000000000
       Size.Height = 22.000000000000000000
       Size.PlatformDefault = False
     end
@@ -60,14 +60,14 @@ object Form1: TForm1
     Align = Left
     Position.Y = 97.000000000000000000
     Size.Width = 385.000000000000000000
-    Size.Height = 287.000000000000000000
+    Size.Height = 372.000000000000000000
     Size.PlatformDefault = False
     TabOrder = 1
     object BITChart1: TBITChart
       Zoom.Brush.Kind = None
       Zoom.Pen.Fill.Color = claSilver
       Size.Width = 385.000000000000000000
-      Size.Height = 287.000000000000000000
+      Size.Height = 372.000000000000000000
       Size.PlatformDefault = False
       ColorPaletteIndex = 9
       object TMarksTipTool
@@ -82,8 +82,8 @@ object Form1: TForm1
   end
   object BIGrid1: TBIGrid
     Align = Client
-    Size.Width = 364.000000000000000000
-    Size.Height = 287.000000000000000000
+    Size.Width = 464.000000000000000000
+    Size.Height = 372.000000000000000000
     Size.PlatformDefault = False
     TabOrder = 2
   end
